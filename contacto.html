@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Instituto Privado San Ramón, Villanueva, Cortés. Honor, dignidad y cultura.">
+  <title>Ubicación y contacto | Instituto Privado San Ramón</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+  <header>
+    <div class="encabezado">
+      <a class="marca" href="index.html" aria-label="Instituto Privado San Ramón, inicio">
+        <img src="assets/logo.svg" alt="Escudo provisional" width="44" height="50">
+        <span><strong>Instituto Privado San Ramón</strong><small>Honor, dignidad y cultura</small></span>
+      </a>
+    <nav aria-label="Principal">
+      <a href="index.html">Inicio</a>
+      <a href="nosotros.html">Quiénes somos</a>
+      <a href="personal.html">Personal</a>
+      <a href="actividades.html">Actividades</a>
+      <a href="oferta.html">Qué ofrecemos</a>
+      <a href="opiniones.html">Opiniones</a>
+      <a href="contacto.html" aria-current="page">Contacto</a>
+    </nav>
+    </div>
+  </header>
+  <main id="contenido">
+    <h1>Ubicación y contacto</h1>
+    <section class="dos-columnas contacto">
+      <div>
+        <h2>Visítanos</h2>
+        <p>Villanueva, Cortés, Honduras.</p>
+        <p>Dirección exacta, teléfono y correo por confirmar.</p>
+        <div class="foto "><img src="assets/foto-pendiente.svg" alt="Espacio para Mapa o foto de la ubicación"><span>Mapa o foto de la ubicación</span></div>
+      </div>
+      <div id="formulario">
+        <h2>Escríbenos</h2>
+        <form id="contact-form">
+          <label for="nombre">Nombre *</label>
+          <input id="nombre" name="nombre" autocomplete="name" maxlength="100" required>
+          <label for="correo">Correo electrónico *</label>
+          <input id="correo" name="correo" type="email" autocomplete="email" maxlength="150" required>
+          <label for="programa">Consulta sobre *</label>
+          <select id="programa" name="programa" required><option value="">Selecciona</option><option>Educación básica</option><option>Ciencias y Humanidades</option><option>Informática</option><option>Otros servicios</option></select>
+          <label for="mensaje">Mensaje *</label>
+          <textarea id="mensaje" name="mensaje" rows="3" minlength="10" maxlength="2000" required></textarea>
+          <label class="casilla"><input type="checkbox" name="consentimiento" required> Acepto compartir mis datos para recibir respuesta.</label>
+          <button class="boton" type="submit">Preparar correo</button>
+          <p id="form-status" role="status"></p>
+          <p class="nota">Correo oficial pendiente. No se guardan datos. Con el destinatario configurado, debes enviar el mensaje desde tu aplicación de correo.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p><strong>Instituto Privado San Ramón</strong> | Villanueva, Cortés</p>
+    <p>Redes: Facebook e Instagram, enlaces por confirmar.</p>
+    <p class="nota">Proyecto académico. Historia, personal, actividades, precios y opiniones de ejemplo.</p>
+  </footer>
+</body>
+</html>
